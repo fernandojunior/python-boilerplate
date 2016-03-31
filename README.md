@@ -1,10 +1,11 @@
 # python-boilerplate
+*Collection of my boilerplates for Python.*
 
-Collection of my boilerplates for Python.
+This repository contains a collection of very simple boilerplates for Python projects. All them have common [features](#features) and basic [structure](structure). See also a tiny [glossary](glossary) to better understand.
 
-* [module](https://github.com/fernandojunior/python-boilerplate-module) - A boilerplate to create a Python module based project.
-* [package](https://github.com/fernandojunior/python-boilerplate-package) - A boilerplate to create a Python package based project.
-* [script](https://github.com/fernandojunior/python-boilerplate-script) - A boilerplate to create a Python script based project.
+* [module](https://github.com/fernandojunior/python-boilerplate-module) - Boilerplate to create a Python module based project.
+* [package](https://github.com/fernandojunior/python-boilerplate-package) - Boilerplate to create a Python package based project.
+* [script](https://github.com/fernandojunior/python-boilerplate-script) - Boilerplate to create a Python script based project.
 
 ## Features
 *Common preconfigured tools to facilitate the project development.*
@@ -14,6 +15,40 @@ Collection of my boilerplates for Python.
 * [pytest](http://pytest.org/) - A mature full-featured Python testing tool.
 * [setuptools](https://pythonhosted.org/setuptools/setuptools.html) - Easily download, build, install, upgrade, and uninstall distribution packages.
 * [tox](https://tox.readthedocs.org/) - Auto builds and tests distributions in multiple Python versions using virtualenvs.
+
+## Structure
+*Structure of the project in [tree](http://stackoverflow.com/questions/3455625/linux-command-to-print-directory-structure-in-the-form-of-a-tree) format.*
+
+```sh
+├── <CORE_CODE>
+├── CONTRIBUTING.md
+├── LICENSE
+├── Makefile
+├── MANIFEST.in
+├── README.md
+├── requirements
+│   ├── dev.txt
+│   └── prod.txt
+├── requirements.txt
+├── setup.cfg
+├── setup.py
+├── tests.py
+└── tox.ini
+```
+
+Purpose of each file:
+
+* \<CORE_CODE\> - A Python package or module with the core code of the project.
+* CONTRIBUTING.md - Details about how project owner would like to receive contributions [reference](https://guides.github.com/activities/contributing-to-open-source/).
+* LICENSE - Informs users and contributors what they can and can't do with the project [reference](https://guides.github.com/activities/contributing-to-open-source/).
+* Makefile - Automates useful commands to use with make, a build automation tool [reference](https://en.wikipedia.org/wiki/Makefile).
+* MANIFEST.in - Adds extra resources in distributions as only modules and packages are included by default [reference](https://pythonhosted.org/setuptools/setuptools.html).
+* README.md - Details for the project on how to build, install, use and contribute to it [reference](https://guides.github.com/activities/contributing-to-open-source/).
+* requirements* - Contains the dependencies of the project to be installed using pip [reference](https://pip.readthedocs.org/en/stable/user_guide/#requirements-files).
+* setup.cfg - Configures some settings of the tools used in the project [reference](https://docs.python.org/3/distutils/configfile.html).
+* setup.py - Contains information needed to build, release and install distributions [reference](https://pythonhosted.org/setuptools/setuptools.html).
+* tests.py - Provides some automated tests to run with pytest [reference](http://pytest.org/).
+* tox.ini - Defines test environments to run with tox [reference](https://tox.readthedocs.org/en/latest/).
 
 ## Glossary
 *Terms to understand the capabilities offered by the boilerplates.*
