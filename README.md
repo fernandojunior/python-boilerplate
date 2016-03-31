@@ -1,5 +1,4 @@
 # python-boilerplate
-*Collection of my boilerplates for Python.*
 
 This repository contains a collection of very simple boilerplates for Python projects. All them have common [features](#features) and basic [structure](structure). See also a tiny [glossary](glossary) to better understand.
 
