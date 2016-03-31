@@ -1,6 +1,6 @@
 # python-boilerplate
 
-This repository contains a collection of very simple boilerplates for Python projects. All them have common [features](#features) and basic [structure](structure). See also a tiny [glossary](glossary) to better understand.
+This repository contains a collection of very simple boilerplates for Python projects. All them have common [features](#features) and basic [structure](#structure). See also a tiny [glossary](#glossary) to better understand.
 
 * [module](https://github.com/fernandojunior/python-boilerplate-module) - Boilerplate to create a Python module based project.
 * [package](https://github.com/fernandojunior/python-boilerplate-package) - Boilerplate to create a Python package based project.
@@ -31,7 +31,7 @@ This repository contains a collection of very simple boilerplates for Python pro
 ├── requirements.txt
 ├── setup.cfg
 ├── setup.py
-├── tests.py
+├── tests*
 └── tox.ini
 ```
 
@@ -46,7 +46,7 @@ Purpose of each file:
 * requirements* - Contains the dependencies of the project to be installed using pip [reference](https://pip.readthedocs.org/en/stable/user_guide/#requirements-files).
 * setup.cfg - Configures some settings of the tools used in the project [reference](https://docs.python.org/3/distutils/configfile.html).
 * setup.py - Contains information needed to build, release and install distributions [reference](https://pythonhosted.org/setuptools/setuptools.html).
-* tests.py - Provides some automated tests to run with pytest [reference](http://pytest.org/).
+* tests* - Provides some automated tests to run with pytest [reference](http://pytest.org/).
 * tox.ini - Defines test environments to run with tox [reference](https://tox.readthedocs.org/en/latest/).
 
 ## Glossary
