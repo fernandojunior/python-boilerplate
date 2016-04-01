@@ -1,10 +1,12 @@
 # python-boilerplate
 
-This repository contains a collection of very simple boilerplates for Python projects. All them have common [features](#features) and basic [structure](#structure). See also a tiny [glossary](#glossary) to better understand.
+A collection of very simple [boilerplates](#boilerplates) for Python projects. See [features](#features), [structure](#structure) and [glossary](#glossary) to better understand them.
 
-* [module](https://github.com/fernandojunior/python-boilerplate-module) - Boilerplate to create a Python module based project.
-* [package](https://github.com/fernandojunior/python-boilerplate-package) - Boilerplate to create a Python package based project.
-* [script](https://github.com/fernandojunior/python-boilerplate-script) - Boilerplate to create a Python script based project.
+## Boilerplates
+
+* [module](https://github.com/fernandojunior/python-boilerplate-module) - Boilerplate to create a module based project.
+* [package](https://github.com/fernandojunior/python-boilerplate-package) - Boilerplate to create a package based project.
+* [script](https://github.com/fernandojunior/python-boilerplate-script) - Boilerplate to create a script based project.
 
 ## Features
 *Common preconfigured tools to facilitate the project development.*
