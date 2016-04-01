@@ -21,7 +21,7 @@ A collection of very simple [boilerplates](#boilerplates) for Python projects. S
 *Basic structure of the boilerplates in [tree](http://stackoverflow.com/questions/3455625/linux-command-to-print-directory-structure-in-the-form-of-a-tree) format.*
 
 ```sh
-project_name
+project_name/
 ├── <CORE_CODE>  # Python package or module with the core code of the project
 ├── CONTRIBUTING.md  # Details about how the project mantainer would like to receive contributions
 ├── LICENSE  # Informs users and contributors what they can and can't do with the project
