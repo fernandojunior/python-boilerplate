@@ -21,17 +21,17 @@ A collection of very simple [boilerplates](#boilerplates) for Python projects. S
 *Basic structure of the boilerplates in [tree](http://stackoverflow.com/questions/3455625/linux-command-to-print-directory-structure-in-the-form-of-a-tree) format.*
 
 ```sh
-├── <CORE_CODE> # Python package or module with the core code of the project
-├── CONTRIBUTING.md # Details about how project owner would like to receive contributions
-├── LICENSE # Informs users and contributors what they can and can't do with the project
-├── Makefile # Automates useful tasks to use with make, a build automation tool
-├── MANIFEST.in # Adds extra resources in distributions packages
-├── README.md # Details how to build, install, use and contribute to the project
-├── requirements* # Contains the dependencies of the project to be installed using pip
-├── setup.cfg # Configures some settings of the tools used in the project
-├── setup.py # Contains information needed to build distributions with setuptools
-├── tests* # Provides some automated tests to run with pytest
-└── tox.ini # Defines test environments to run with tox
+├── <CORE_CODE>  # Python package or module with the core code of the project
+├── CONTRIBUTING.md  # Details about how project owner would like to receive contributions
+├── LICENSE  # Informs users and contributors what they can and can't do with the project
+├── Makefile  # Automates useful tasks to use with make, a build automation tool
+├── MANIFEST.in  # Adds extra resources in distributions packages
+├── README.md  # Details how to build, install, use and contribute to the project
+├── requirements*  # Contains the dependencies of the project to be installed using pip
+├── setup.cfg  # Configures some settings of the tools used in the project
+├── setup.py  # Contains information needed to build distributions with setuptools
+├── tests*  # Provides some automated tests to run with pytest
+└── tox.ini  # Defines test environments to run with tox
 ```
 
 ## Glossary
