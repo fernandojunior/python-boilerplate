@@ -4,11 +4,11 @@ A collection of very simple [boilerplates](#boilerplates) for Python projects. S
 
 ## Boilerplates
 
-[![building](https://img.shields.io/travis/fernandojunior/python-boilerplate-module.svg)](https://travis-ci.org/fernandojunior/python-boilerplate-module) [module](https://github.com/fernandojunior/python-boilerplate-module) - Python module based project.
+[![building](https://img.shields.io/travis/fernandojunior/python-boilerplate-module.svg)](https://travis-ci.org/fernandojunior/python-boilerplate-module) [module](https://github.com/fernandojunior/python-boilerplate-module) - Boilerplate to create a project with a Python module.
 
-[![building](https://img.shields.io/travis/fernandojunior/python-boilerplate-package.svg)](https://travis-ci.org/fernandojunior/python-boilerplate-package) [package](https://github.com/fernandojunior/python-boilerplate-package) - Python package based project.
+[![building](https://img.shields.io/travis/fernandojunior/python-boilerplate-package.svg)](https://travis-ci.org/fernandojunior/python-boilerplate-package) [package](https://github.com/fernandojunior/python-boilerplate-package) - Boilerplate to create a project with a Python package.
 
-[![building](https://img.shields.io/travis/fernandojunior/python-boilerplate-script.svg )](https://travis-ci.org/fernandojunior/python-boilerplate-script) [script](https://github.com/fernandojunior/python-boilerplate-script) - Python script based project.
+[![building](https://img.shields.io/travis/fernandojunior/python-boilerplate-script.svg )](https://travis-ci.org/fernandojunior/python-boilerplate-script) [script](https://github.com/fernandojunior/python-boilerplate-script) - Boilerplate to create a command line script project with a Python module.
 
 ## Features
 *Common preconfigured tools to facilitate the project development.*
