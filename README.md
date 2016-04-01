@@ -22,12 +22,12 @@ A collection of very simple [boilerplates](#boilerplates) for Python projects. S
 
 ```sh
 ├── <CORE_CODE>  # Python package or module with the core code of the project
-├── CONTRIBUTING.md  # Details about how project owner would like to receive contributions
+├── CONTRIBUTING.md  # Details about how the project mantainer would like to receive contributions
 ├── LICENSE  # Informs users and contributors what they can and can't do with the project
 ├── Makefile  # Automates useful tasks to use with make, a build automation tool
-├── MANIFEST.in  # Adds extra resources in distributions packages
+├── MANIFEST.in  # Specifies extra resources to add in distributions packages
 ├── README.md  # Details how to build, install, use and contribute to the project
-├── requirements*  # Contains the dependencies of the project to be installed using pip
+├── requirements*  # Contains dependencies of the project to be installed using pip
 ├── setup.cfg  # Configures some settings of the tools used in the project
 ├── setup.py  # Contains information needed to build distributions with setuptools
 ├── tests*  # Provides some automated tests to run with pytest
