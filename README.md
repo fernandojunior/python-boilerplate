@@ -21,35 +21,18 @@ A collection of very simple [boilerplates](#boilerplates) for Python projects. S
 *Structure of the project in [tree](http://stackoverflow.com/questions/3455625/linux-command-to-print-directory-structure-in-the-form-of-a-tree) format.*
 
 ```sh
-├── <CORE_CODE>
-├── CONTRIBUTING.md
-├── LICENSE
-├── Makefile
-├── MANIFEST.in
-├── README.md
-├── requirements
-│   ├── dev.txt
-│   └── prod.txt
-├── requirements.txt
-├── setup.cfg
-├── setup.py
-├── tests*
-└── tox.ini
+├── <CORE_CODE>       # Python package or module with the core code of the project.
+├── CONTRIBUTING.md   # Details about how project owner would like to receive contributions
+├── LICENSE           # Informs users and contributors what they can and can't do with the project
+├── Makefile          # Automates useful tasks to use with make, a build automation tool
+├── MANIFEST.in       # Adds extra resources in distributions packages
+├── README.md         # Details how to build, install, use and contribute to the project
+├── requirements*     # Contains the dependencies of the project to be installed using pip
+├── setup.cfg         # Configures some settings of the tools used in the project
+├── setup.py          # Contains information needed to build, release and install distributions
+├── tests*            # Provides some automated tests to run with pytest
+└── tox.ini           # Defines test environments to run with tox
 ```
-
-Purpose of each file:
-
-* \<CORE_CODE\> - A Python package or module with the core code of the project.
-* CONTRIBUTING.md - Details about how project owner would like to receive contributions [reference](https://guides.github.com/activities/contributing-to-open-source/).
-* LICENSE - Informs users and contributors what they can and can't do with the project [reference](https://guides.github.com/activities/contributing-to-open-source/).
-* Makefile - Automates useful commands to use with make, a build automation tool [reference](https://en.wikipedia.org/wiki/Makefile).
-* MANIFEST.in - Adds extra resources in distributions as only modules and packages are included by default [reference](https://pythonhosted.org/setuptools/setuptools.html).
-* README.md - Details for the project on how to build, install, use and contribute to it [reference](https://guides.github.com/activities/contributing-to-open-source/).
-* requirements* - Contains the dependencies of the project to be installed using pip [reference](https://pip.readthedocs.org/en/stable/user_guide/#requirements-files).
-* setup.cfg - Configures some settings of the tools used in the project [reference](https://docs.python.org/3/distutils/configfile.html).
-* setup.py - Contains information needed to build, release and install distributions [reference](https://pythonhosted.org/setuptools/setuptools.html).
-* tests* - Provides some automated tests to run with pytest [reference](http://pytest.org/).
-* tox.ini - Defines test environments to run with tox [reference](https://tox.readthedocs.org/en/latest/).
 
 ## Glossary
 *Terms to understand the capabilities offered by the boilerplates.*
